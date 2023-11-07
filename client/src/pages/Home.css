@@ -1,0 +1,121 @@
+/* Apply styles to the container */
+.homepage-container {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the brewery list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #c7a5d9;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px  rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+h3 {
+  color: #333;
+  font-size: 20px;
+  margin: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a {
+  color: white;
+  font-style: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-button {
+  background-color: #c7a5d9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.search-button:hover {
+  background-color: #c7a5d9;
+}
+
+/* Home.css */
+/* Style for dropdown container */
+.dropdown-container {
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+}
+
+/* Style for dropdown labels */
+.dropdown-label {
+font-size: 18px;
+margin-bottom: 5px;
+color: #333;
+}
+
+/* Style for dropdown select elements */
+.dropdown-select {
+width: 100%;
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+outline: none;
+}
+
+/* Style for dropdown options */
+.dropdown-select option {
+font-size: 16px;
+color: #333;
+}
+
+/* Style for search button */
+.search-button {
+background-color: #c7a5d9;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+font-size: 16px;
+margin-top: 10px;
+}
+
+.search-button:hover {
+background-color: #c7a5d9;
+}
