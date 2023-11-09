@@ -25,7 +25,7 @@ exports.addReview = async (req, res) => {
 exports.getReview = async (req, res) => {
   try {
     const { breweryId } = req.query;
-    const reviews = await Review.find({ breweryId }).populate('user');
+    const reviews = await Review.find().populate('user');
 
     if (!reviews) {
       return res.status(404).json({ message: 'No reviews found for this brewery.' });

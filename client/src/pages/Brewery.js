@@ -27,8 +27,8 @@ const BreweryDetails = () => {
         const response = await axios.get(
           `http://localhost:3002/api/reviews/get-reviews`
         );
-        console.log(response)
-        setReviews(response.data);
+        console.log(response.data.filter(el=>el.breweryId===id))
+        setReviews(response.data.filter(el=>el.breweryId===id));
       } catch (error) {
         console.error("Error fetching reviews:", error);
       }
